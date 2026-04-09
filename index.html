@@ -121,59 +121,84 @@
         <div id="slide-1" class="slide inactive-right absolute inset-0">
             <div class="relative z-10 h-full w-full p-8 flex flex-col items-center justify-center pointer-events-auto">
                 <div class="w-full max-w-5xl flex flex-col items-center">
-                    <div class="flex items-center gap-4 mb-8 bg-white/80 backdrop-blur-md px-8 py-4 rounded-3xl border border-white/50 shadow-sm">
-                        <div class="p-3 bg-blue-50 rounded-2xl text-blue-600 shadow-sm"><i data-lucide="book-open" class="w-8 h-8"></i></div>
-                        <h2 class="text-4xl font-black text-stone-800 m-0">一、 教材地位与作用</h2>
+                    
+                    <div class="flex items-center gap-3 mb-5 bg-white/80 backdrop-blur-md px-6 py-2.5 rounded-2xl border border-white/50 shadow-sm w-fit">
+                        <div class="p-2 bg-blue-50 rounded-xl text-blue-600 shadow-sm"><i data-lucide="book-open" class="w-7 h-7"></i></div>
+                        <h2 class="text-3xl font-black text-stone-800 m-0">一、 教材地位与作用</h2>
                     </div>
 
-                    <div class="bg-white/90 w-full rounded-[2.5rem] p-8 border border-stone-200 shadow-xl anim-float relative overflow-hidden">
-                        <div class="absolute top-0 left-0 w-full h-2 bg-blue-500"></div>
-                        <div class="absolute -right-10 -top-10 w-40 h-40 bg-blue-100 rounded-full blur-3xl opacity-50"></div>
+                    <div class="relative w-full max-w-[52rem] mx-auto anim-float mt-2 md:mt-4">
                         
-                        <div class="text-stone-600 leading-relaxed font-medium space-y-6 relative z-10">
-                            <div class="text-center">
-                                <p class="text-2xl m-0">本课选自<b class="text-blue-600 mx-2 text-3xl">粤教版选择性必修1《数据与数据结构》</b>第五章。</p>
+                        <div class="absolute z-20 w-56 md:w-[22rem] -left-40 md:-left-[18rem] top-0 md:top-6 perspective-1000">
+                            <div class="relative group hover:-translate-y-2 transition-transform duration-500">
+                                <img src="./textbook2.png" alt="二分查找教材内容" class="w-full rounded-xl shadow-[10px_10px_25px_rgba(0,0,0,0.15)] border-4 border-white object-cover bg-white">
+                                <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-black/5 pointer-events-none"></div>
                             </div>
+                        </div>
+
+                        <div class="absolute z-20 w-32 md:w-48 -left-16 md:-left-32 top-[40%] md:top-[45%] perspective-1000">
+                            <div class="relative group hover:-translate-y-2 transition-transform duration-500">
+                                <img src="./textbook.jpg" alt="粤教版选择性必修1《数据与数据结构》" class="w-full rounded-r-2xl rounded-l-sm shadow-[15px_15px_30px_rgba(0,0,0,0.2)] border-l-[6px] border-slate-300 border border-white object-cover">
+                                <div class="absolute inset-0 rounded-r-2xl rounded-l-sm ring-1 ring-inset ring-black/10 pointer-events-none"></div>
+                            </div>
+                        </div>
+
+                        <div class="absolute z-20 w-48 md:w-72 -right-24 md:-right-[16rem] top-[18%] md:top-[20%] perspective-1000">
+                            <div class="relative group hover:-translate-y-2 transition-transform duration-500">
+                                <img src="./textbook3.jpg" alt="补充教材内容" class="w-full rounded-xl shadow-[15px_15px_30px_rgba(0,0,0,0.2)] border-4 border-white object-cover bg-white">
+                                <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-black/10 pointer-events-none"></div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white/90 w-[85%] md:w-[80%] mx-auto rounded-3xl py-6 px-6 md:py-8 md:px-10 border border-stone-200 shadow-xl relative overflow-hidden">
+                            <div class="absolute top-0 left-0 w-full h-2 bg-blue-500"></div>
+                            <div class="absolute -right-10 -top-10 w-40 h-40 bg-blue-100 rounded-full blur-3xl opacity-50 pointer-events-none"></div>
                             
-                            <div class="flex flex-col md:flex-row gap-6 mt-4">
-                                <div class="flex-1 bg-blue-50/50 p-6 rounded-2xl border border-blue-100 hover:shadow-md transition-shadow">
-                                    <h4 class="text-blue-700 font-black text-xl mb-4 flex items-center gap-2"><i data-lucide="git-commit"></i> 模块内脉络：前后衔接</h4>
-                                    <ul class="text-lg space-y-4 list-none p-0 m-0">
-                                        <li class="flex items-start gap-2">
-                                            <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mt-1 shrink-0"></i>
-                                            <div>
-                                                <b class="text-slate-800">承前（基础铺垫）：</b>
-                                                <p class="text-base mt-1 mb-0">调用前章数组知识，深化5.1节迭代与递归思维；对比5.2.1节顺序查找，建立核心的算法效率认知。</p>
-                                            </div>
-                                        </li>
-                                        <li class="flex items-start gap-2">
-                                            <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mt-1 shrink-0"></i>
-                                            <div>
-                                                <b class="text-slate-800">启后（进阶赋能）：</b>
-                                                <p class="text-base mt-1 mb-0">二分法的“有序”前提，为5.3节引出排序算法提供内在需求；为5.4节理解“算法依赖数据结构”提供实体支撑。</p>
-                                            </div>
-                                        </li>
-                                    </ul>
+                            <div class="text-stone-600 leading-relaxed font-medium space-y-4 relative z-10">
+                                <div class="text-center md:text-left">
+                                    <p class="text-2xl m-0">本课选自<b class="text-blue-600 mx-2 text-3xl">粤教版选择性必修1《数据与数据结构》</b>第五章。</p>
                                 </div>
                                 
-                                <div class="flex-1 bg-indigo-50/50 p-6 rounded-2xl border border-indigo-100 hover:shadow-md transition-shadow">
-                                    <h4 class="text-indigo-700 font-black text-xl mb-4 flex items-center gap-2"><i data-lucide="network"></i> 跨教材协同：全局贯通</h4>
-                                    <ul class="text-lg space-y-4 list-none p-0 m-0">
-                                        <li class="flex items-start gap-2">
-                                            <i data-lucide="check-circle-2" class="w-5 h-5 text-indigo-500 mt-1 shrink-0"></i>
-                                            <div>
-                                                <b class="text-slate-800">生发于必修：</b>
-                                                <p class="text-base mt-1 mb-0">建立在必修模块“计算机解决问题的一般过程”之上，是学生从初步编程能力向高阶计算思维跨越的桥梁。</p>
-                                            </div>
-                                        </li>
-                                        <li class="flex items-start gap-2">
-                                            <i data-lucide="check-circle-2" class="w-5 h-5 text-indigo-500 mt-1 shrink-0"></i>
-                                            <div>
-                                                <b class="text-slate-800">辐射于其他选修：</b>
-                                                <p class="text-base mt-1 mb-0">为后续《算法初步》及《人工智能初步》等选修模块输送底层算法逻辑。</p>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                <div class="flex flex-col md:flex-row gap-6 mt-2">
+                                    <div class="flex-1 bg-blue-50/50 p-5 rounded-2xl border border-blue-100 hover:shadow-md transition-shadow">
+                                        <h4 class="text-blue-700 font-black text-xl mb-4 flex items-center gap-2"><i data-lucide="git-commit"></i> 模块内脉络：前后衔接</h4>
+                                        <ul class="text-lg space-y-4 list-none p-0 m-0">
+                                            <li class="flex items-start gap-2">
+                                                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mt-1 shrink-0"></i>
+                                                <div>
+                                                    <b class="text-slate-800">承前（基础铺垫）：</b>
+                                                    <p class="text-base mt-1 mb-0">调用前章数组知识，深化5.1节迭代与递归思维；对比5.2.1节顺序查找，建立核心的算法效率认知。</p>
+                                                </div>
+                                            </li>
+                                            <li class="flex items-start gap-2">
+                                                <i data-lucide="check-circle-2" class="w-5 h-5 text-blue-500 mt-1 shrink-0"></i>
+                                                <div>
+                                                    <b class="text-slate-800">启后（进阶赋能）：</b>
+                                                    <p class="text-base mt-1 mb-0">二分法的“有序”前提，为5.3节引出排序算法提供内在需求；为5.4节理解“算法依赖数据结构”提供实体支撑。</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="flex-1 bg-indigo-50/50 p-5 rounded-2xl border border-indigo-100 hover:shadow-md transition-shadow">
+                                        <h4 class="text-indigo-700 font-black text-xl mb-4 flex items-center gap-2"><i data-lucide="network"></i> 跨教材协同：全局贯通</h4>
+                                        <ul class="text-lg space-y-4 list-none p-0 m-0">
+                                            <li class="flex items-start gap-2">
+                                                <i data-lucide="check-circle-2" class="w-5 h-5 text-indigo-500 mt-1 shrink-0"></i>
+                                                <div>
+                                                    <b class="text-slate-800">生发于必修：</b>
+                                                    <p class="text-base mt-1 mb-0">建立在必修模块“计算机解决问题的一般过程”之上，是学生从初步编程能力向高阶计算思维跨越的桥梁。</p>
+                                                </div>
+                                            </li>
+                                            <li class="flex items-start gap-2">
+                                                <i data-lucide="check-circle-2" class="w-5 h-5 text-indigo-500 mt-1 shrink-0"></i>
+                                                <div>
+                                                    <b class="text-slate-800">辐射于其他选修：</b>
+                                                    <p class="text-base mt-1 mb-0">为后续《算法初步》及《人工智能初步》等选修模块输送底层算法逻辑。</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -287,42 +312,81 @@
         </div>
 
         <div id="slide-4" class="slide inactive-right absolute inset-0">
-            <div class="relative z-10 h-full w-full p-8 flex flex-col items-center justify-center pointer-events-auto">
-                <div class="w-full max-w-5xl flex flex-col items-center">
-                    <div class="flex items-center gap-4 mb-10 bg-white/80 backdrop-blur-md px-8 py-4 rounded-3xl border border-white/50 shadow-sm">
+            <div class="relative z-10 h-full w-full p-6 md:p-8 flex flex-col items-center justify-center pointer-events-auto">
+                <div class="w-full max-w-[72rem] flex flex-col items-center">
+                    <div class="flex items-center gap-4 mb-6 md:mb-8 bg-white/80 backdrop-blur-md px-8 py-3 md:py-4 rounded-3xl border border-white/50 shadow-sm">
                         <div class="p-3 bg-emerald-50 rounded-2xl text-emerald-600 shadow-sm"><i data-lucide="compass" class="w-8 h-8"></i></div>
-                        <h2 class="text-4xl font-black text-stone-800 m-0">四、 教师教法：建构与引导</h2>
+                        <h2 class="text-3xl md:text-4xl font-black text-stone-800 m-0">四、 教师教法：建构与引导</h2>
                     </div>
 
-                    <div class="bg-white/95 w-full p-10 rounded-[2.5rem] border border-stone-200 shadow-xl relative overflow-hidden">
-                        <div class="space-y-8 relative z-10">
-                            <div class="flex gap-6 items-start hover:translate-x-2 transition-transform">
-                                <div class="w-16 h-16 bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-500 shrink-0 border border-emerald-100 font-black text-2xl shadow-sm">1</div>
-                                <div>
-                                    <h4 class="font-black text-stone-800 text-2xl mb-2 flex items-center gap-3">情境创设法 <span class="bg-stone-100 text-stone-500 px-3 py-1 text-sm rounded-lg border border-stone-200">建构主义</span></h4>
-                                    <p class="text-stone-500 text-lg leading-relaxed">设计“东莞至广州的光缆排障”情境。将抽象算法具象化为地理寻点，拉近知识与生活的距离，让学生凭借常识自然运用折半法。</p>
+                    <div class="relative w-full">
+                        
+                        <div class="absolute inset-y-0 left-0 right-[320px] bg-white/95 rounded-[2.5rem] border border-stone-200 shadow-xl z-0"></div>
+
+                        <div class="relative z-10 w-full flex flex-col py-6">
+                            
+                            <div class="flex items-center w-full">
+                                <div class="flex-1 px-8 md:px-10 flex gap-5 items-start hover:translate-x-2 transition-transform">
+                                    <div class="w-14 h-14 md:w-16 md:h-16 bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-500 shrink-0 border border-emerald-100 font-black text-xl md:text-2xl shadow-sm">1</div>
+                                    <div>
+                                        <h4 class="font-black text-stone-800 text-xl md:text-2xl mb-1.5 flex items-center gap-3">情境创设法 <span class="bg-stone-100 text-stone-500 px-3 py-1 text-xs md:text-sm rounded-lg border border-stone-200">建构主义</span></h4>
+                                        <p class="text-stone-500 text-base md:text-lg leading-relaxed m-0">设计“东莞至广州的光缆排障”情境。将抽象算法具象化为地理寻点，拉近知识与生活的距离，让学生凭借常识自然运用折半法。</p>
+                                    </div>
+                                </div>
+                                <div class="w-[280px] shrink-0 ml-10 relative group">
+                                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_25px_rgba(0,0,0,0.1)] bg-white transform transition-transform duration-500 group-hover:-translate-y-2 relative z-10">
+                                        <img src="./story-setting.jpg" alt="光缆排障情境" class="w-full h-auto object-cover">
+                                    </div>
+                                    <div class="absolute -inset-3 bg-emerald-400/20 rounded-[2rem] blur-xl -z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                                 </div>
                             </div>
                             
-                            <div class="w-full h-px bg-stone-100"></div>
+                            <div class="w-full flex">
+                                <div class="flex-1 px-10 py-3">
+                                    <div class="w-full h-px bg-stone-200"></div>
+                                </div>
+                                <div class="w-[280px] shrink-0 ml-10"></div>
+                            </div>
 
-                            <div class="flex gap-6 items-start hover:translate-x-2 transition-transform">
-                                <div class="w-16 h-16 bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-500 shrink-0 border border-emerald-100 font-black text-2xl shadow-sm">2</div>
-                                <div>
-                                    <h4 class="font-black text-stone-800 text-2xl mb-2 flex items-center gap-3">直观演示与对比法 <span class="bg-stone-100 text-stone-500 px-3 py-1 text-sm rounded-lg border border-stone-200">直观性原则</span></h4>
-                                    <p class="text-stone-500 text-lg leading-relaxed">首尾呼应展示顺序开盲盒与对数切分，用强烈的视觉动画与直观数据（如 42 亿数据查找对比），让学生切身感受 O(n) 与 O(log n) 的量级差异。</p>
+                            <div class="flex items-center w-full">
+                                <div class="flex-1 px-8 md:px-10 flex gap-5 items-start hover:translate-x-2 transition-transform">
+                                    <div class="w-14 h-14 md:w-16 md:h-16 bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-500 shrink-0 border border-emerald-100 font-black text-xl md:text-2xl shadow-sm">2</div>
+                                    <div>
+                                        <h4 class="font-black text-stone-800 text-xl md:text-2xl mb-1.5 flex items-center gap-3">直观演示与对比法 <span class="bg-stone-100 text-stone-500 px-3 py-1 text-xs md:text-sm rounded-lg border border-stone-200">直观性原则</span></h4>
+                                        <p class="text-stone-500 text-base md:text-lg leading-relaxed m-0">首尾呼应展示顺序开盲盒与对数切分，用强烈的视觉动画与直观数据（如 42 亿数据查找对比），让学生切身感受 O(n) 与 O(log n) 的量级差异。</p>
+                                    </div>
+                                </div>
+                                <div class="w-[280px] shrink-0 ml-10 relative group">
+                                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_25px_rgba(0,0,0,0.1)] bg-white transform transition-transform duration-500 group-hover:-translate-y-2 relative z-10">
+                                        <img src="./cutting.jpg" alt="对数切割模拟器" class="w-full h-auto object-cover">
+                                    </div>
+                                    <div class="absolute -inset-3 bg-blue-400/20 rounded-[2rem] blur-xl -z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                                 </div>
                             </div>
 
-                            <div class="w-full h-px bg-stone-100"></div>
+                            <div class="w-full flex">
+                                <div class="flex-1 px-10 py-3">
+                                    <div class="w-full h-px bg-stone-200"></div>
+                                </div>
+                                <div class="w-[280px] shrink-0 ml-10"></div>
+                            </div>
 
-                            <div class="flex gap-6 items-start hover:translate-x-2 transition-transform">
-                                <div class="w-16 h-16 bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-500 shrink-0 border border-emerald-100 font-black text-2xl shadow-sm">3</div>
-                                <div>
-                                    <h4 class="font-black text-stone-800 text-2xl mb-2 flex items-center gap-3">错误预设法 (试误法) <span class="bg-stone-100 text-stone-500 px-3 py-1 text-sm rounded-lg border border-stone-200">意义学习理论</span></h4>
-                                    <p class="text-stone-500 text-lg leading-relaxed">在代码编译环节，针对极易写错的边界条件设置下拉陷阱与“震动报错”。通过犯错与纠错，加深大脑对边界死循环难点的记忆。</p>
+                            <div class="flex items-center w-full">
+                                <div class="flex-1 px-8 md:px-10 flex gap-5 items-start hover:translate-x-2 transition-transform">
+                                    <div class="w-14 h-14 md:w-16 md:h-16 bg-emerald-50 rounded-2xl flex items-center justify-center text-emerald-500 shrink-0 border border-emerald-100 font-black text-xl md:text-2xl shadow-sm">3</div>
+                                    <div>
+                                        <h4 class="font-black text-stone-800 text-xl md:text-2xl mb-1.5 flex items-center gap-3">错误预设法 (试误法) <span class="bg-stone-100 text-stone-500 px-3 py-1 text-xs md:text-sm rounded-lg border border-stone-200">意义学习理论</span></h4>
+                                        <p class="text-stone-500 text-base md:text-lg leading-relaxed m-0">在代码编译环节，针对极易写错的边界条件设置下拉陷阱与“震动报错”。通过犯错与纠错，加深大脑对边界死循环难点的记忆。</p>
+                                    </div>
+                                </div>
+                                <div class="w-[280px] shrink-0 ml-10 relative group">
+                                    <div class="rounded-2xl overflow-hidden shadow-[0_8px_25px_rgba(0,0,0,0.1)] bg-white transform transition-transform duration-500 group-hover:-translate-y-2 relative z-10">
+                                        <img src="./coding.jpg" alt="代码试误" class="w-full h-auto object-cover">
+                                    </div>
+                                    <div class="absolute -inset-3 bg-amber-400/30 rounded-[2rem] blur-xl -z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -330,38 +394,54 @@
         </div>
 
         <div id="slide-5" class="slide inactive-right absolute inset-0">
-            <div class="relative z-10 h-full w-full p-6 md:p-8 flex flex-col items-center justify-center pointer-events-auto">
-                <div class="w-full max-w-5xl flex flex-col items-center my-auto">
-                    <div class="flex items-center gap-3 mb-4 bg-white/80 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/50 shadow-sm shrink-0 w-fit max-w-full">
+            <div class="relative z-10 h-full w-full p-4 md:p-6 flex flex-col items-center justify-center pointer-events-auto">
+                <div class="w-full max-w-[75rem] flex flex-col items-center my-auto">
+                    <div class="flex items-center gap-3 mb-8 bg-white/80 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/50 shadow-sm shrink-0 w-fit max-w-full z-20">
                         <div class="p-2 bg-blue-50 rounded-xl text-blue-600 shadow-sm shrink-0"><i data-lucide="lightbulb" class="w-6 h-6"></i></div>
                         <h2 class="text-2xl md:text-3xl font-black text-stone-800 m-0 break-words">五、 学生学法：驱动与探究</h2>
                     </div>
 
-                    <div class="bg-gradient-to-br from-indigo-50 to-blue-50 w-full p-8 md:p-10 rounded-[2.5rem] border border-blue-100 shadow-xl relative overflow-hidden shrink-0">
-                        <div class="absolute -right-20 -bottom-20 w-64 h-64 bg-blue-200/50 rounded-full blur-[80px] pointer-events-none"></div>
-                        
-                        <div class="grid grid-cols-1 gap-6 md:gap-8 relative z-10">
-                            <div class="bg-white/80 p-6 md:p-8 rounded-3xl border border-blue-100 shadow-sm hover:shadow-md transition-all">
-                                <h4 class="font-black text-blue-800 text-xl md:text-2xl mb-3 md:mb-4 flex items-center gap-3">
-                                    <i data-lucide="clipboard-list" class="w-8 h-8 text-blue-500"></i> 任务驱动法
-                                </h4>
-                                <p class="text-stone-600 text-lg md:text-xl leading-relaxed m-0">
-                                    课件右侧内置全局悬浮的“互动任务单”。将全课的被动听讲转化为 <b>4 个明确的通关实操任务</b>，引导学生变“听客”为“闯关者”，培养目标导向的自学与记录习惯。
-                                </p>
-                            </div>
-                            
-                            <div class="bg-white/80 p-6 md:p-8 rounded-3xl border border-blue-100 shadow-sm hover:shadow-md transition-all">
-                                <h4 class="font-black text-blue-800 text-xl md:text-2xl mb-3 md:mb-4 flex items-center gap-3">
-                                    <i data-lucide="microscope" class="w-8 h-8 text-blue-500"></i> 探究式学习
-                                </h4>
-                                <p class="text-stone-600 text-lg md:text-xl leading-relaxed m-0">
-                                    在“AI调参模拟”和“对数切割”等环节，给予学生完全的操作自由。通过拖拽滑块自行摸索报错与成功规律，培养学生<b>将课本知识向未知领域横向泛化、举一反三</b>的能力。
-                                </p>
-                            </div>
-                        </div>
+                    <div class="relative w-full">
+                        <div class="absolute inset-y-0 left-0 w-[62%] bg-gradient-to-br from-indigo-50/90 to-blue-50/90 rounded-[2.5rem] border border-blue-100 shadow-xl z-0"></div>
 
-                        <div class="mt-8 flex items-center justify-center p-4 bg-blue-600 text-white rounded-2xl font-bold shadow-lg text-lg md:text-xl relative z-10 tracking-widest">
-                            “教无定法，贵在得法；学无定法，贵在领悟。”
+                        <div class="relative z-10 w-full flex flex-col p-6 md:p-8 gap-10">
+                            
+                            <div class="relative w-full flex items-center">
+                                <div class="w-[60%] bg-white p-5 md:p-6 rounded-3xl border border-blue-50 shadow-sm hover:shadow-md transition-all relative z-10">
+                                    <h4 class="font-black text-blue-800 text-xl md:text-2xl mb-2 flex items-center gap-3">
+                                        <i data-lucide="clipboard-list" class="w-8 h-8 text-blue-500"></i> 任务驱动法
+                                    </h4>
+                                    <p class="text-stone-600 text-base md:text-lg leading-relaxed m-0">
+                                        课件右侧内置全局悬浮的“互动任务单”。将全课的被动听讲转化为 <b>4 个明确的通关实操任务</b>，引导学生变“听客”为“闯关者”，培养目标导向的自学与记录习惯。
+                                    </p>
+                                </div>
+                                
+                                <div class="absolute left-[65%] right-0 top-1/2 -translate-y-1/2 h-[120%] flex items-center justify-start group z-20">
+                                    <div class="relative h-full flex items-center">
+                                        <img src="./task-list.jpg" alt="互动任务单" class="max-h-full w-auto object-contain rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.12)] bg-white transform transition-transform duration-500 group-hover:-translate-y-2">
+                                        <div class="absolute -inset-2 bg-blue-400/20 rounded-[2rem] blur-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="relative w-full flex items-center">
+                                <div class="w-[60%] bg-white p-5 md:p-6 rounded-3xl border border-blue-50 shadow-sm hover:shadow-md transition-all relative z-10">
+                                    <h4 class="font-black text-blue-800 text-xl md:text-2xl mb-2 flex items-center gap-3">
+                                        <i data-lucide="microscope" class="w-8 h-8 text-blue-500"></i> 探究式学习
+                                    </h4>
+                                    <p class="text-stone-600 text-base md:text-lg leading-relaxed m-0">
+                                        在“AI调参模拟”和“对数切割”等环节，给予学生完全的操作自由。通过拖拽滑块自行摸索报错与成功规律，培养学生<b>将课本知识向未知领域横向泛化、举一反三</b>的能力。
+                                    </p>
+                                </div>
+                                
+                                <div class="absolute left-[65%] right-0 top-1/2 -translate-y-1/2 h-[120%] flex items-center justify-start group z-20">
+                                    <div class="relative h-full flex items-center">
+                                        <img src="./learning-rate.jpg" alt="AI调参模拟" class="max-h-full w-auto object-contain rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.12)] bg-white transform transition-transform duration-500 group-hover:-translate-y-2">
+                                        <div class="absolute -inset-2 bg-indigo-400/20 rounded-[2rem] blur-xl -z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -371,32 +451,48 @@
         <div id="slide-6" class="slide inactive-right absolute inset-0">
             <div class="relative z-10 h-full w-full p-6 flex flex-col items-center justify-center pointer-events-auto">
                 <div class="w-full max-w-5xl flex flex-col h-full justify-center min-h-0">
-                    <div class="flex items-center gap-3 mb-4 bg-white/80 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/50 shadow-sm w-fit shrink-0">
+                    <div class="flex items-center gap-3 mb-3 bg-white/80 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/50 shadow-sm w-fit shrink-0">
                         <div class="p-2 bg-fuchsia-50 rounded-xl text-fuchsia-600 shadow-sm"><i data-lucide="route" class="w-6 h-6"></i></div>
                         <h2 class="text-2xl font-black text-stone-800 m-0">六、 教学程序分析</h2>
                     </div>
 
                     <div class="bg-white/95 p-6 md:p-8 rounded-[2rem] border border-stone-200 shadow-xl flex flex-col flex-1 relative overflow-hidden min-h-0">
                         <div class="absolute top-0 left-0 w-2 h-full bg-fuchsia-400"></div>
-                        <div class="flex items-center gap-5 mb-5 border-b border-stone-100 pb-4 shrink-0">
-                            <div class="w-14 h-14 bg-fuchsia-50 border-4 border-fuchsia-400 rounded-full flex items-center justify-center font-black text-2xl text-fuchsia-500 shadow-inner shrink-0">1</div>
-                            <h3 class="text-2xl font-black text-stone-800 m-0">创设冲突，导入新课</h3>
-                        </div>
                         
-                        <div class="space-y-5 flex-1 overflow-y-auto pr-2 custom-scrollbar">
-                            <div>
-                                <h4 class="text-lg font-bold text-slate-400 uppercase tracking-widest mb-2 m-0">环节呈现</h4>
-                                <div class="bg-slate-50 p-4 md:p-5 rounded-2xl border border-slate-200 text-lg text-stone-700 leading-relaxed">
-                                    <p class="m-0">在页面中呈现一排盲盒，带领学生使用顺序查找的方式寻找目标数值（89）。让学生注视着计步器缓慢、机械地逐一增加。</p>
+                        <div class="flex items-stretch justify-between gap-6 mb-4 border-b border-stone-100 pb-4 shrink-0">
+                            
+                            <div class="flex flex-col justify-between flex-1">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-14 h-14 bg-fuchsia-50 border-4 border-fuchsia-400 rounded-full flex items-center justify-center font-black text-2xl text-fuchsia-500 shadow-inner shrink-0">1</div>
+                                    <h3 class="text-2xl font-black text-stone-800 m-0">创设冲突，导入新课</h3>
+                                </div>
+                                
+                                <div class="mt-4">
+                                    <h4 class="text-base font-bold text-slate-400 uppercase tracking-widest mb-1.5 m-0">环节呈现</h4>
+                                    <div class="bg-slate-50 p-3 md:p-4 rounded-2xl border border-slate-200 text-base text-stone-700 leading-relaxed">
+                                        <p class="m-0">在页面中呈现一排盲盒，带领学生使用顺序查找的方式寻找目标数值（89）。让学生注视着计步器缓慢、机械地逐一增加。</p>
+                                    </div>
                                 </div>
                             </div>
+                            
+                            <div class="w-[360px] shrink-0 relative group flex items-end">
+                                <div class="rounded-xl overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.05)] border border-stone-100 bg-white transform transition-transform duration-500 group-hover:-translate-y-1 relative z-10 w-full">
+                                    <img src="./review.jpg" alt="顺序查找演示" class="w-full h-auto object-cover">
+                                </div>
+                                <div class="absolute -inset-2 bg-fuchsia-400/20 rounded-[1.5rem] blur-lg -z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="flex-1 flex flex-col justify-start mt-2">
                             <div>
-                                <h4 class="text-lg font-bold text-fuchsia-500 uppercase tracking-widest mb-2 flex items-center gap-2 m-0"><i data-lucide="zap" class="w-5 h-5"></i> 设计意图阐述</h4>
-                                <div class="bg-fuchsia-50/60 p-4 md:p-5 rounded-2xl border border-fuchsia-100 text-lg text-stone-600 leading-relaxed shadow-inner">
+                                <h4 class="text-lg font-bold text-fuchsia-500 uppercase tracking-widest mb-1.5 flex items-center gap-2 m-0"><i data-lucide="zap" class="w-5 h-5"></i> 设计意图阐述</h4>
+                                <div class="bg-fuchsia-50/60 p-3 md:p-4 rounded-2xl border border-fuchsia-100 text-lg text-stone-600 leading-relaxed shadow-inner">
                                     <p class="m-0">引入<b>皮亚杰的“认知失衡”理论</b>：当学生发现原有的认知图式（顺序查找）在面对海量数据时显得极为低效，就会产生强烈的心理失衡感。这种人为刻意制造的“痛点”，能够迫使学生主动去“顺应”并渴望掌握新的、更高效的解题策略（二分查找），从而将其转化为驱动学习的最佳内生动力。</p>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -405,34 +501,50 @@
         <div id="slide-7" class="slide inactive-right absolute inset-0">
             <div class="relative z-10 h-full w-full p-6 flex flex-col items-center justify-center pointer-events-auto">
                 <div class="w-full max-w-5xl flex flex-col h-full justify-center min-h-0">
-                    <div class="flex items-center gap-3 mb-4 bg-white/80 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/50 shadow-sm w-fit shrink-0">
+                    <div class="flex items-center gap-3 mb-3 bg-white/80 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/50 shadow-sm w-fit shrink-0">
                         <div class="p-2 bg-fuchsia-50 rounded-xl text-fuchsia-600 shadow-sm"><i data-lucide="route" class="w-6 h-6"></i></div>
                         <h2 class="text-2xl font-black text-stone-800 m-0">六、 教学程序分析</h2>
                     </div>
 
                     <div class="bg-white/95 p-6 md:p-8 rounded-[2rem] border border-stone-200 shadow-xl flex flex-col flex-1 relative overflow-hidden min-h-0">
                         <div class="absolute top-0 left-0 w-2 h-full bg-sky-400"></div>
-                        <div class="flex items-center gap-5 mb-5 border-b border-stone-100 pb-4 shrink-0">
-                            <div class="w-14 h-14 bg-sky-50 border-4 border-sky-400 rounded-full flex items-center justify-center font-black text-2xl text-sky-500 shadow-inner shrink-0">2</div>
-                            <h3 class="text-2xl font-black text-stone-800 m-0">贴近生活，探究原理</h3>
-                        </div>
                         
-                        <div class="space-y-5 flex-1 overflow-y-auto pr-2 custom-scrollbar">
-                            <div>
-                                <h4 class="text-lg font-bold text-slate-400 uppercase tracking-widest mb-2 m-0">环节呈现</h4>
-                                <div class="bg-slate-50 p-4 md:p-5 rounded-2xl border border-slate-200 text-lg text-stone-700 leading-relaxed">
-                                    <p class="m-0 mb-2">1. <b>光缆维修：</b>无人机定位断点，体验折半排查。</p>
-                                    <p class="m-0 mb-2">2. <b>对数切割：</b>狂点按钮将 1000 斩至 1，推导公式 <span class="font-mono bg-white px-2 rounded border border-slate-200 text-base">k = log₂n</span>。</p>
-                                    <p class="m-0">3. <b>AI 对比：</b>现场提问豆包 AI，计算 42 亿数据的查找次数差异。</p>
+                        <div class="flex items-stretch justify-between gap-6 mb-4 border-b border-stone-100 pb-4 shrink-0">
+                            
+                            <div class="flex flex-col justify-between flex-1">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-14 h-14 bg-sky-50 border-4 border-sky-400 rounded-full flex items-center justify-center font-black text-2xl text-sky-500 shadow-inner shrink-0">2</div>
+                                    <h3 class="text-2xl font-black text-stone-800 m-0">贴近生活，探究原理</h3>
+                                </div>
+                                
+                                <div class="mt-4">
+                                    <h4 class="text-base font-bold text-slate-400 uppercase tracking-widest mb-1.5 m-0">环节呈现</h4>
+                                    <div class="bg-slate-50 p-3 md:p-4 rounded-2xl border border-slate-200 text-base text-stone-700 leading-relaxed">
+                                        <p class="m-0 mb-1.5">1. <b>光缆维修：</b>无人机定位断点，体验折半排查。</p>
+                                        <p class="m-0 mb-1.5">2. <b>对数切割：</b>狂点按钮将 1000 斩至 1，推导公式 <span class="font-mono bg-white px-2 py-0.5 rounded border border-slate-200 text-sm">k = log₂n</span>。</p>
+                                        <p class="m-0">3. <b>AI 对比：</b>现场提问豆包 AI，计算 42 亿数据的查找次数差异。</p>
+                                    </div>
                                 </div>
                             </div>
+                            
+                            <div class="w-[360px] shrink-0 relative group flex items-end">
+                                <div class="rounded-xl overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.05)] border border-stone-100 bg-white transform transition-transform duration-500 group-hover:-translate-y-1 relative z-10 w-full">
+                                    <img src="./askdoubao.jpg" alt="AI对比演示" class="w-full h-auto object-cover">
+                                </div>
+                                <div class="absolute -inset-2 bg-sky-400/20 rounded-[1.5rem] blur-lg -z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="flex-1 flex flex-col justify-start mt-2">
                             <div>
-                                <h4 class="text-lg font-bold text-sky-500 uppercase tracking-widest mb-2 flex items-center gap-2 m-0"><i data-lucide="zap" class="w-5 h-5"></i> 设计意图阐述</h4>
-                                <div class="bg-sky-50/60 p-4 md:p-5 rounded-2xl border border-sky-100 text-lg text-stone-600 leading-relaxed shadow-inner">
+                                <h4 class="text-lg font-bold text-sky-500 uppercase tracking-widest mb-1.5 flex items-center gap-2 m-0"><i data-lucide="zap" class="w-5 h-5"></i> 设计意图阐述</h4>
+                                <div class="bg-sky-50/60 p-3 md:p-4 rounded-2xl border border-sky-100 text-lg text-stone-600 leading-relaxed shadow-inner">
                                     <p class="m-0">依据<b>建构主义的“抛锚式教学”</b>：将复杂的算法逻辑“抛锚”于真实的排障情境中，让学生凭借常识自发领悟折半思想。同时结合<b>布鲁纳的“发现学习理论”</b>，借助大模型工具将抽象的复杂度具象化，引导学生在直观震撼的数据对比中，自行探索并“发现”时间复杂度从 O(n) 降维至 O(log n) 的核心规律。</p>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -441,33 +553,49 @@
         <div id="slide-8" class="slide inactive-right absolute inset-0">
             <div class="relative z-10 h-full w-full p-6 flex flex-col items-center justify-center pointer-events-auto">
                 <div class="w-full max-w-5xl flex flex-col h-full justify-center min-h-0">
-                    <div class="flex items-center gap-3 mb-4 bg-white/80 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/50 shadow-sm w-fit shrink-0">
+                    <div class="flex items-center gap-3 mb-3 bg-white/80 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/50 shadow-sm w-fit shrink-0">
                         <div class="p-2 bg-fuchsia-50 rounded-xl text-fuchsia-600 shadow-sm"><i data-lucide="route" class="w-6 h-6"></i></div>
                         <h2 class="text-2xl font-black text-stone-800 m-0">六、 教学程序分析</h2>
                     </div>
 
                     <div class="bg-white/95 p-6 md:p-8 rounded-[2rem] border border-stone-200 shadow-xl flex flex-col flex-1 relative overflow-hidden min-h-0">
                         <div class="absolute top-0 left-0 w-2 h-full bg-amber-400"></div>
-                        <div class="flex items-center gap-5 mb-5 border-b border-stone-100 pb-4 shrink-0">
-                            <div class="w-14 h-14 bg-amber-50 border-4 border-amber-400 rounded-full flex items-center justify-center font-black text-2xl text-amber-500 shadow-inner shrink-0">3</div>
-                            <h3 class="text-2xl font-black text-stone-800 m-0">抽丝剥茧，突破重难点</h3>
-                        </div>
                         
-                        <div class="space-y-5 flex-1 overflow-y-auto pr-2 custom-scrollbar">
-                            <div>
-                                <h4 class="text-lg font-bold text-slate-400 uppercase tracking-widest mb-2 m-0">环节呈现</h4>
-                                <div class="bg-slate-50 p-4 md:p-5 rounded-2xl border border-slate-200 text-lg text-stone-700 leading-relaxed">
-                                    <p class="m-0 mb-2">1. <b>手动接管指针：</b>系统给出指令，学生在数组面板上手动点击计算出的 M，以及下一步更新的 L 或 R 位置。</p>
-                                    <p class="m-0">2. <b>修复搜索模块：</b>进入 C++ IDE 界面，针对 <code>while条件</code> 和 <code>mid±1</code> 进行下拉填空编译验证。</p>
+                        <div class="flex items-stretch justify-between gap-6 mb-4 border-b border-stone-100 pb-4 shrink-0">
+                            
+                            <div class="flex flex-col justify-between flex-1">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-14 h-14 bg-amber-50 border-4 border-amber-400 rounded-full flex items-center justify-center font-black text-2xl text-amber-500 shadow-inner shrink-0">3</div>
+                                    <h3 class="text-2xl font-black text-stone-800 m-0">抽丝剥茧，突破重难点</h3>
+                                </div>
+                                
+                                <div class="mt-4">
+                                    <h4 class="text-base font-bold text-slate-400 uppercase tracking-widest mb-1.5 m-0">环节呈现</h4>
+                                    <div class="bg-slate-50 p-3 md:p-4 rounded-2xl border border-slate-200 text-base text-stone-700 leading-relaxed">
+                                        <p class="m-0 mb-1.5">1. <b>手动接管指针：</b>系统给出指令，学生在数组面板上手动点击计算出的 M，以及下一步更新的 L 或 R 位置。</p>
+                                        <p class="m-0">2. <b>修复搜索模块：</b>进入 C++ IDE 界面，针对 <code>while条件</code> 和 <code>mid±1</code> 进行下拉填空编译验证。</p>
+                                    </div>
                                 </div>
                             </div>
+                            
+                            <div class="w-[360px] shrink-0 relative group flex items-end">
+                                <div class="rounded-xl overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.05)] border border-stone-100 bg-white transform transition-transform duration-500 group-hover:-translate-y-1 relative z-10 w-full">
+                                    <img src="./simulate.jpg" alt="代码模拟演示" class="w-full h-auto object-cover">
+                                </div>
+                                <div class="absolute -inset-2 bg-amber-400/20 rounded-[1.5rem] blur-lg -z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="flex-1 flex flex-col justify-start mt-2">
                             <div>
-                                <h4 class="text-lg font-bold text-amber-500 uppercase tracking-widest mb-2 flex items-center gap-2 m-0"><i data-lucide="zap" class="w-5 h-5"></i> 设计意图阐述</h4>
-                                <div class="bg-amber-50/60 p-4 md:p-5 rounded-2xl border border-amber-100 text-lg text-stone-600 leading-relaxed shadow-inner">
+                                <h4 class="text-lg font-bold text-amber-500 uppercase tracking-widest mb-1.5 flex items-center gap-2 m-0"><i data-lucide="zap" class="w-5 h-5"></i> 设计意图阐述</h4>
+                                <div class="bg-amber-50/60 p-3 md:p-4 rounded-2xl border border-amber-100 text-lg text-stone-600 leading-relaxed shadow-inner">
                                     <p class="m-0">遵循<b>维果斯基的“支架式教学”</b>原理：面对高难度的代码边界控制，不采取直接灌输，而是搭建“原理推演 ➡️ 逻辑固化 ➡️ 代码实现”的认知支架。让学生先充当“人体编译器”形成直觉记忆，随后运用<b>桑代克的“试误学习理论”</b>，在真实的交互报错与纠错中，自然消解死循环这个最高难度的痛点。</p>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -483,26 +611,42 @@
 
                     <div class="bg-white/95 p-6 md:p-8 rounded-[2rem] border border-stone-200 shadow-xl flex flex-col flex-1 relative overflow-hidden min-h-0">
                         <div class="absolute top-0 left-0 w-2 h-full bg-indigo-400"></div>
-                        <div class="flex items-center gap-5 mb-5 border-b border-stone-100 pb-4 shrink-0">
-                            <div class="w-14 h-14 bg-indigo-50 border-4 border-indigo-400 rounded-full flex items-center justify-center font-black text-2xl text-indigo-500 shadow-inner shrink-0">4</div>
-                            <h3 class="text-2xl font-black text-stone-800 m-0">融会贯通，拓展迁移</h3>
-                        </div>
                         
-                        <div class="space-y-5 flex-1 overflow-y-auto pr-2 custom-scrollbar">
-                            <div>
-                                <h4 class="text-lg font-bold text-slate-400 uppercase tracking-widest mb-2 m-0">环节呈现</h4>
-                                <div class="bg-slate-50 p-4 md:p-5 rounded-2xl border border-slate-200 text-lg text-stone-700 leading-relaxed">
-                                    <p class="m-0 mb-2">1. <b>AI调参模拟：</b>扮演算法工程师，用折半法在连续空间中寻找最佳的学习率，避免梯度爆炸。</p>
-                                    <p class="m-0">2. <b>二分答案法探究：</b>求教 AI 破解经典难题（放羊与柱子），理解非数组场景的二分应用。</p>
+                        <div class="flex items-stretch justify-between gap-6 mb-4 border-b border-stone-100 pb-4 shrink-0">
+                            
+                            <div class="flex flex-col justify-between flex-1">
+                                <div class="flex items-center gap-4">
+                                    <div class="w-14 h-14 bg-indigo-50 border-4 border-indigo-400 rounded-full flex items-center justify-center font-black text-2xl text-indigo-500 shadow-inner shrink-0">4</div>
+                                    <h3 class="text-2xl font-black text-stone-800 m-0">融会贯通，拓展迁移</h3>
+                                </div>
+                                
+                                <div class="mt-4">
+                                    <h4 class="text-base font-bold text-slate-400 uppercase tracking-widest mb-1.5 m-0">环节呈现</h4>
+                                    <div class="bg-slate-50 p-3 md:p-4 rounded-2xl border border-slate-200 text-base text-stone-700 leading-relaxed">
+                                        <p class="m-0 mb-1.5">1. <b>AI调参模拟：</b>扮演算法工程师，用折半法在连续空间中寻找最佳的学习率，避免梯度爆炸。</p>
+                                        <p class="m-0">2. <b>二分答案法探究：</b>求教 AI 破解经典难题（放羊与柱子），理解非数组场景的二分应用。</p>
+                                    </div>
                                 </div>
                             </div>
+                            
+                            <div class="w-[360px] shrink-0 relative group flex items-end">
+                                <div class="rounded-xl overflow-hidden shadow-[0_4px_15px_rgba(0,0,0,0.08)] border border-slate-200 bg-white transform transition-transform duration-500 group-hover:-translate-y-1 relative z-10 w-full">
+                                    <img src="./simulate.jpg" alt="AI调参模拟与拓展迁移" class="w-full h-auto object-cover">
+                                </div>
+                                <div class="absolute -inset-2 bg-indigo-400/20 rounded-[1.5rem] blur-lg -z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                            </div>
+                            
+                        </div>
+                        
+                        <div class="flex-1 flex flex-col justify-start mt-2">
                             <div>
-                                <h4 class="text-lg font-bold text-indigo-500 uppercase tracking-widest mb-2 flex items-center gap-2 m-0"><i data-lucide="zap" class="w-5 h-5"></i> 设计意图阐述</h4>
-                                <div class="bg-indigo-50/60 p-4 md:p-5 rounded-2xl border border-indigo-100 text-lg text-stone-600 leading-relaxed shadow-inner">
+                                <h4 class="text-lg font-bold text-indigo-500 uppercase tracking-widest mb-1.5 flex items-center gap-2 m-0"><i data-lucide="zap" class="w-5 h-5"></i> 设计意图阐述</h4>
+                                <div class="bg-indigo-50/60 p-3 md:p-4 rounded-2xl border border-indigo-100 text-lg text-stone-600 leading-relaxed shadow-inner">
                                     <p class="m-0">贯彻<b>“学习迁移理论”中的“高通路迁移”</b>：强调对核心规则的有意识抽象与运用。通过引入前沿的AI调参情境，引导学生跳出“在数组中找数字”的固化思维，将折半原理泛化到截然不同的“连续解空间”中，实现高级计算思维的深度跃迁与举一反三。</p>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -511,31 +655,41 @@
         <div id="slide-10" class="slide inactive-right absolute inset-0">
             <div class="relative z-10 h-full w-full p-6 flex flex-col items-center justify-center pointer-events-auto">
                 <div class="w-full max-w-5xl flex flex-col h-full justify-center min-h-0">
-                    <div class="flex items-center gap-3 mb-4 bg-white/80 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/50 shadow-sm w-fit shrink-0">
+                    <div class="flex items-center gap-3 mb-3 bg-white/80 backdrop-blur-md px-5 py-2.5 rounded-2xl border border-white/50 shadow-sm w-fit shrink-0">
                         <div class="p-2 bg-fuchsia-50 rounded-xl text-fuchsia-600 shadow-sm"><i data-lucide="route" class="w-6 h-6"></i></div>
                         <h2 class="text-2xl font-black text-stone-800 m-0">六、 教学程序分析</h2>
                     </div>
 
                     <div class="bg-slate-800 p-6 md:p-8 rounded-[2rem] border border-slate-700 shadow-[0_20px_50px_rgba(0,0,0,0.5)] flex flex-col flex-1 relative overflow-hidden min-h-0 text-slate-200">
                         <div class="absolute top-0 left-0 w-2 h-full bg-emerald-400"></div>
-                        <div class="flex items-center gap-5 mb-5 border-b border-slate-600 pb-4 shrink-0">
-                            <div class="w-14 h-14 bg-emerald-500/20 border-4 border-emerald-400 rounded-full flex items-center justify-center font-black text-2xl text-emerald-400 shadow-inner shrink-0">5</div>
-                            <h3 class="text-2xl font-black text-white m-0">总结评价，情感升华</h3>
+                        
+                        <div class="flex items-center justify-between mb-3 border-b border-slate-600 pb-3 shrink-0">
+                            <div class="flex items-center gap-4">
+                                <div class="w-14 h-14 bg-emerald-500/20 border-4 border-emerald-400 rounded-full flex items-center justify-center font-black text-2xl text-emerald-400 shadow-inner shrink-0">5</div>
+                                <h3 class="text-2xl font-black text-white m-0">总结评价，情感升华</h3>
+                            </div>
+                            
+                            <div class="w-[360px] shrink-0 relative group">
+                                <div class="rounded-xl overflow-hidden shadow-[0_10px_25px_rgba(0,0,0,0.4)] border border-slate-600 bg-slate-700 transform transition-transform duration-500 group-hover:-translate-y-1 relative z-10">
+                                    <img src="./evaluation.jpg" alt="总结评价演示" class="w-full h-auto object-cover">
+                                </div>
+                                <div class="absolute -inset-2 bg-emerald-400/20 rounded-[1.5rem] blur-lg -z-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
+                            </div>
                         </div>
                         
-                        <div class="space-y-5 flex-1 overflow-y-auto pr-2 custom-scrollbar">
+                        <div class="space-y-4 flex-1 flex flex-col justify-start mt-2">
                             <div>
-                                <h4 class="text-lg font-bold text-slate-400 uppercase tracking-widest mb-2 m-0">环节呈现</h4>
-                                <div class="bg-slate-700/50 p-4 md:p-5 rounded-2xl border border-slate-600 text-lg text-slate-300 leading-relaxed">
-                                    进行知识图谱完型填空、终极考题（金库解锁）、填写自我评价量表。并在最后送出教师寄语。
+                                <h4 class="text-base font-bold text-slate-400 uppercase tracking-widest mb-1.5 m-0">环节呈现</h4>
+                                <div class="bg-slate-700/50 p-3 md:p-4 rounded-2xl border border-slate-600 text-base text-slate-300 leading-relaxed">
+                                    <p class="m-0">进行知识图谱完型填空、终极考题（金库解锁）、填写自我评价量表。并在最后送出教师寄语。</p>
                                 </div>
                             </div>
                             <div>
-                                <h4 class="text-lg font-bold text-emerald-400 uppercase tracking-widest mb-2 flex items-center gap-2 m-0"><i data-lucide="zap" class="w-5 h-5"></i> 设计意图阐述</h4>
-                                <div class="bg-emerald-900/30 p-4 md:p-5 rounded-2xl border border-emerald-500/30 text-lg text-emerald-100/90 leading-relaxed shadow-inner">
+                                <h4 class="text-base font-bold text-emerald-400 uppercase tracking-widest mb-1.5 flex items-center gap-2 m-0"><i data-lucide="zap" class="w-4 h-4"></i> 设计意图阐述</h4>
+                                <div class="bg-emerald-900/30 p-3 md:p-4 rounded-2xl border border-emerald-500/30 text-base text-emerald-100/90 leading-relaxed shadow-inner">
                                     <p class="m-0">结合<b>布卢姆“教育目标分类学”中的“情感领域目标”</b>：教学不仅是传授技能，更是价值观的塑造。送给学生的寄语——</p>
-                                    <b class="text-emerald-300 text-xl mt-3 mb-1 inline-block">“在人生的旷野中，学会构建秩序，并懂得不断舍弃一半的无效干扰，才是计算机科学赋予的顶级智慧”</b>
-                                    <p class="m-0 mt-2">旨在将理性的算法思想内化为学生解决人生问题的哲学态度，实现学科核心素养的终极落脚点：既教书，又育人。</p>
+                                    <b class="text-emerald-300 text-lg md:text-xl mt-2 mb-1 block">“在人生的旷野中，学会构建秩序，并懂得不断舍弃一半的无效干扰，才是计算机科学赋予的顶级智慧”</b>
+                                    <p class="m-0 mt-1.5">旨在将理性的算法思想内化为学生解决人生问题的哲学态度，实现学科核心素养的终极落脚点：既教书，又育人。</p>
                                 </div>
                             </div>
                         </div>
